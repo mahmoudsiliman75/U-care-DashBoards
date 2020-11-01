@@ -9,7 +9,7 @@
 					<h2 class="text-lg font-medium truncate mr-5">
 						General Report
 					</h2>
-					<a href="" class="ml-auto flex text-theme-1 dark:text-theme-10"> <i data-feather="refresh-ccw" class="w-4 h-4 mr-3"></i> Reload Data </a>
+					<!-- <a href="" class="ml-auto flex text-theme-1 dark:text-theme-10"> <i data-feather="refresh-ccw" class="w-4 h-4 mr-3"></i> Reload Data </a> -->
 				</div>
 
 				<div class="grid grid-cols-12 gap-6 mt-5">
