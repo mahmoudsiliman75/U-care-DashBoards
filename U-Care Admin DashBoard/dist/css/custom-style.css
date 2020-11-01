@@ -1,0 +1,14 @@
+/* START CUSTOMIZE SCROLLBAR STYLE */
+body::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+} 
+
+body::-webkit-scrollbar-thumb {
+  background-color: #F1F1F1;
+}
+/* START CUSTOMIZE SCROLLBAR STYLE */
+
+#profile .ck.ck-editor {
+  width: 100% !important;
+}

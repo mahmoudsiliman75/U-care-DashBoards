@@ -47,3 +47,15 @@
   margin-left: auto;
 }
 /* END CUSTOMIZE UPPER BAR DIRECTION */
+
+/* START CUSTOMIZE PROFILE PAGE DIRECTION */
+.intro-y .section-headding h2 {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.intro-y .flex .box-line {
+  margin-right: 0;
+  width: 100%;
+}
+/* END CUSTOMIZE PROFILE PAGE DIRECTION */

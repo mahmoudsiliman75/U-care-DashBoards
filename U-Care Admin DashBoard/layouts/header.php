@@ -513,6 +513,13 @@
 			</li>
 
 			<li>
+				<a href="profile.php" class="side-menu">
+					<div class="side-menu__icon"> <i class="ml-3" data-feather="user"></i> </div>
+					<div class="side-menu__title"> Profile </div>
+				</a>
+			</li>
+
+			<li>
 				<a href="edit-profile.php" class="side-menu">
 					<div class="side-menu__icon"> <i class="ml-3" data-feather="settings"></i> </div>
 					<div class="side-menu__title"> Edit Profile </div>

@@ -7,8 +7,9 @@
 	</div>
 
 	<!-- BEGIN: Profile Info -->
-	<div class="grid grid-cols-12 gap-6 mt-5">
 
+
+	<form id="profile" class="grid grid-cols-12 gap-6 mt-5">
 
 		<div class="intro-y box px-5 pt-5 mt-5 col-span-12 sm:col-span-12 lg:col-span-4">
 			<div class="flex flex-col lg:flex-row pb-5 -mx-5">
@@ -33,45 +34,52 @@
 
 		<div class="intro-y box px-5 pt-5 mt-5 col-span-12 sm:col-span-12 lg:col-span-8">
 
-			<form>
-				<div class="grid grid-cols-12 gap-6">
-					<div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-6 lg:flex-row p-5 -mx-5">
-						<input type="text" class="input w-full border mt-2" placeholder="Name"> 
-					</div>
 
-					<div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-6 lg:flex-row p-5 -mx-5">
-						<input type="text" class="input w-full border mt-2" placeholder="Phone Number"> 
-					</div>
-
-					<div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-6 lg:flex-row p-5 -mx-5">
-						<select data-search="true" class="tail-select w-full">
-							<option value="1">Select City</option>
-							<option value="2">Cairo</option>
-							<option value="3">Dakahlya</option>
-							<option value="4">Cairo</option>
-						</select> 
-					</div>
-
-					<div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-6 lg:flex-row p-5 -mx-5">
-						<select data-search="true" class="tail-select w-full">
-							<option value="1">Select Area</option>
-							<option value="2">Doky</option>
-							<option value="3">6 Oct</option>
-						</select> 
-					</div>
-
-					<div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-6 lg:flex-row p-5 -mx-5">
-						<div class="editor" name="editor"> 
-						</div> 
-					</div>
+			<div class="grid grid-cols-12 gap-6">
+				<div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-6 lg:flex-row p-5 -mx-5">
+					<input type="text" class="input w-full border mt-2" placeholder="Name"> 
 				</div>
-			</form>
+
+				<div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-6 lg:flex-row p-5 -mx-5">
+					<input type="text" class="input w-full border mt-2" placeholder="Phone Number"> 
+				</div>
+
+				<div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-6 lg:flex-row p-5 -mx-5">
+					<select data-search="true" class="tail-select w-full">
+						<option value="1">Select City</option>
+						<option value="2">Cairo</option>
+						<option value="3">Dakahlya</option>
+						<option value="4">Cairo</option>
+					</select> 
+				</div>
+
+				<div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-6 lg:flex-row p-5 -mx-5">
+					<select data-search="true" class="tail-select w-full">
+						<option value="1">Select Area</option>
+						<option value="2">Doky</option>
+						<option value="3">6 Oct</option>
+					</select> 
+				</div>
+
 
 			</div>
 
+			</div>
+
+				<div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-12 lg:flex-row p-5 -mx-5">
+					<textarea class="editor w-full" name="editor"> 
+					</textarea> 
+				</div>
+
+				<button type="submit" class="button w-32 mr-2 mb-2 flex items-center justify-center bg-theme-1 text-white"> 
+					<i data-feather="save" class="w-4 h-4 mr-2  ml-2"></i> Save 
+				</button>
+
 		</div>
 
-	</div>
+	</form>
+
+
 
 
 
