@@ -527,11 +527,12 @@
 			</li>
 
 				<li>
-						<a href="side-menu-light-point-of-sale.html" class="side-menu">
-								<div class="side-menu__icon"> <i data-feather="credit-card"></i> </div>
-								<div class="side-menu__title"> Point of Sale </div>
-						</a>
+					<a href="notifications.php" class="side-menu">
+						<div class="side-menu__icon"> <i class="ml-3" data-feather="bell"></i> </div>
+						<div class="side-menu__title">  Notifications </div>
+					</a>
 				</li>
+
 				<li>
 						<a href="side-menu-light-chat.html" class="side-menu">
 								<div class="side-menu__icon"> <i data-feather="message-square"></i> </div>
