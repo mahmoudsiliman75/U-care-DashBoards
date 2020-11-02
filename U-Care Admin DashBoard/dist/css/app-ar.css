@@ -2,6 +2,11 @@
 * body {
   direction: rtl;
 }
+
+.ml-auto {
+  margin: 0;
+  margin-right: auto;
+}
 /* END GLOBAL DIRECTION */
 
 /* START CUSTOMIZE SIDE MENU DIRECTION */

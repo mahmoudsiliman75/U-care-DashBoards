@@ -1,13 +1,6 @@
 <?php include("layouts/header.php") ?>
 
-	<div class="intro-y flex items-center mt-8">
-		<h2 class="text-lg font-medium mr-auto">
-			Edit Profile
-		</h2>
-	</div>
-
 	<!-- BEGIN: Profile Info -->
-
 
 	<form id="profile" class="grid grid-cols-12 gap-6 mt-5">
 
@@ -78,12 +71,5 @@
 		</div>
 
 	</form>
-
-
-
-
-
-
-
 
 <?php include("layouts/footer.php") ?>
