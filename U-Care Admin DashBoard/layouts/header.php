@@ -573,28 +573,25 @@
 
 			<li>
 				<a href="javascript:;" class="side-menu">
-					<div class="side-menu__icon"> <i data-feather="hard-drive"></i> </div>
-					<div class="side-menu__title"> Widgets <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+					<div class="side-menu__icon"> <i class="ml-3" data-feather="users"></i> </div>
+					<div class="side-menu__title"> Patients <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
 				</a>
 				<ul class="">
+
 					<li>
-						<a href="side-menu-light-chart.html" class="side-menu">
-							<div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-							<div class="side-menu__title"> Chart </div>
+						<a href="add-new-patient.php" class="side-menu">
+							<div class="side-menu__icon"> <i class="ml-3" data-feather="user-plus"></i> </div>
+							<div class="side-menu__title"> Add New Patient </div>
 						</a>
 					</li>
+
 					<li>
-						<a href="side-menu-light-slider.html" class="side-menu">
-							<div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-							<div class="side-menu__title"> Slider </div>
+						<a href="all-patients.php" class="side-menu">
+							<div class="side-menu__icon"> <i class="ml-3" data-feather="users"></i> </div>
+							<div class="side-menu__title"> All Patients </div>
 						</a>
 					</li>
-					<li>
-						<a href="side-menu-light-image-zoom.html" class="side-menu">
-							<div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-							<div class="side-menu__title"> Image Zoom </div>
-						</a>
-					</li>
+
 				</ul>
 			</li>
 
