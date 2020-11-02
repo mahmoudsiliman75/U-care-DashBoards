@@ -83,15 +83,7 @@
             <tr> 
               <td class="border-b dark:border-dark-5">1</td> 
               <td class="border-b dark:border-dark-5">Angelina</td> 
-              <td class="border-b dark:border-dark-5 flex justify-end"> 
-                <button class="button w-12 px-2 mr-1 mb-2 bg-theme-12 text-white flex"> 
-                  <a href="#" class="w-5 h-5 flex items-center justify-between"> 
-                    <i data-feather="eye" class="w-5 h-5"></i> 
-                  </a>
-
-                  40
-                </button>
-              </td> 
+              <td class="border-b dark:border-dark-5"> Jolie </td> 
               <td class="border-b dark:border-dark-5">@angelinajolie</td> 
               <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">
                 <button class="button px-2 mr-1 mb-2 bg-theme-9 text-white"> 
