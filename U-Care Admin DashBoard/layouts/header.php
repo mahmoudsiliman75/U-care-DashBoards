@@ -8,7 +8,10 @@
     <meta name="description" content="Midone admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Midone admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="LEFT4CODE">
-    <title>UCare Admin DashBoard</title>
+		<title>UCare Admin DashBoard</title>
+		<!-- BEGIN: Google Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap">
+		<!-- BEGIN: Google Fonts -->
     <!-- BEGIN: CSS Assets-->
     <link rel="stylesheet" href="dist/css/app.css" />
     <link rel="stylesheet" href="dist/css/custom-style.css" />
@@ -554,6 +557,13 @@
 				</a>
 			</li>
 
+			<li>
+				<a href="reservation.php" class="side-menu">
+					<div class="side-menu__icon"> <i class="ml-3" data-feather="plus-square"></i> </div>
+					<div class="side-menu__title"> Reservation </div>
+				</a>
+			</li>
+
 
 			<li>
 					<a href="side-menu-light-post.html" class="side-menu">
@@ -588,9 +598,6 @@
 							</li>
 					</ul>
 			</li>
-
-
-
 
 		</ul>
 	</nav>
