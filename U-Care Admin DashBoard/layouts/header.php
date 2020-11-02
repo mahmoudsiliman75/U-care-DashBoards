@@ -541,6 +541,13 @@
 			</li>
 
 			<li>
+				<a href="add-clinic.php" class="side-menu">
+					<div class="side-menu__icon"> <i class="ml-3" data-feather="plus-square"></i> </div>
+					<div class="side-menu__title"> Add Clinic </div>
+				</a>
+			</li>
+
+			<li>
 				<a href="governorate-manage.php" class="side-menu">
 					<div class="side-menu__icon"> <i class="ml-3" data-feather="map"></i> </div>
 					<div class="side-menu__title"> Governorates Management </div>

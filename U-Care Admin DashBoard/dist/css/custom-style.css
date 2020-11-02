@@ -12,3 +12,7 @@ body::-webkit-scrollbar-thumb {
 #profile .ck.ck-editor {
   width: 100% !important;
 }
+
+#add-clinic .ck.ck-editor {
+  width: 100% !important;
+}
