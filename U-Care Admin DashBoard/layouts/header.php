@@ -564,6 +564,40 @@
 				</a>
 			</li>
 
+			<li>
+				<a href="services.php" class="side-menu">
+					<div class="side-menu__icon"> <i class="ml-3" data-feather="star"></i> </div>
+					<div class="side-menu__title"> Services </div>
+				</a>
+			</li>
+
+			<li>
+				<a href="javascript:;" class="side-menu">
+					<div class="side-menu__icon"> <i data-feather="hard-drive"></i> </div>
+					<div class="side-menu__title"> Widgets <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+				</a>
+				<ul class="">
+					<li>
+						<a href="side-menu-light-chart.html" class="side-menu">
+							<div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+							<div class="side-menu__title"> Chart </div>
+						</a>
+					</li>
+					<li>
+						<a href="side-menu-light-slider.html" class="side-menu">
+							<div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+							<div class="side-menu__title"> Slider </div>
+						</a>
+					</li>
+					<li>
+						<a href="side-menu-light-image-zoom.html" class="side-menu">
+							<div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+							<div class="side-menu__title"> Image Zoom </div>
+						</a>
+					</li>
+				</ul>
+			</li>
+
 
 			<li>
 					<a href="side-menu-light-post.html" class="side-menu">
