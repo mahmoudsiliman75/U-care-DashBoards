@@ -540,12 +540,23 @@
 				</a>
 			</li>
 
-				<li>
-						<a href="side-menu-light-post.html" class="side-menu">
-								<div class="side-menu__icon"> <i data-feather="file-text"></i> </div>
-								<div class="side-menu__title"> Post </div>
-						</a>
-				</li>
+			<li>
+				<a href="governorate-manage.php" class="side-menu">
+					<div class="side-menu__icon"> <i class="ml-3" data-feather="map"></i> </div>
+					<div class="side-menu__title"> Governorates Management </div>
+				</a>
+			</li>
+
+
+			<li>
+					<a href="side-menu-light-post.html" class="side-menu">
+							<div class="side-menu__icon"> <i data-feather="file-text"></i> </div>
+							<div class="side-menu__title"> Post </div>
+					</a>
+			</li>
+
+
+
 
 		</ul>
 	</nav>
