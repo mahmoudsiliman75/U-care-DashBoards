@@ -85,7 +85,7 @@
               <td class="border-b dark:border-dark-5">Angelina</td> 
               <td class="border-b dark:border-dark-5"> Jolie </td> 
               <td class="border-b dark:border-dark-5">@angelinajolie</td> 
-              <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">
+              <th class="border-b dark:border-dark-5 whitespace-no-wrap">
                 <button class="button px-2 mr-1 mb-2 bg-theme-9 text-white"> 
                   <a href="#" class="w-5 h-5 flex items-center justify-center"> 
                     <i data-feather="edit" class="w-4 h-4"></i> 
@@ -105,7 +105,7 @@
               <td class="border-b dark:border-dark-5">Brad</td> 
               <td class="border-b dark:border-dark-5">Pitt</td> 
               <td class="border-b dark:border-dark-5">@bradpitt</td> 
-              <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">
+              <th class="border-b dark:border-dark-5 whitespace-no-wrap">
               <button class="button px-2 mr-1 mb-2 bg-theme-9 text-white"> 
                   <a href="#" class="w-5 h-5 flex items-center justify-center"> 
                     <i data-feather="edit" class="w-4 h-4"></i> 
@@ -125,7 +125,7 @@
               <td class="border-b dark:border-dark-5">Charlie</td> 
               <td class="border-b dark:border-dark-5">Hunnam</td> 
               <td class="border-b dark:border-dark-5">@charliehunnam</td> 
-              <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">
+              <th class="border-b dark:border-dark-5 whitespace-no-wrap">
               <button class="button px-2 mr-1 mb-2 bg-theme-9 text-white"> 
                   <a href="#" class="w-5 h-5 flex items-center justify-center"> 
                     <i data-feather="edit" class="w-4 h-4"></i> 
