@@ -31,7 +31,7 @@ $(document).ready(function () {
   $('#abortion-container').css('display' , 'none');
   $('#vaginal-container').css('display' , 'none');
   $('#cs-container').css('display' , 'none');
-  $('#blanck-container').css('display' , 'none');
+  // $('#blanck-container').css('display' , 'none');
 
   $('#pregnancy-status').on('change' , function(){
     let pregnancyOptionValue = $('#pregnancy-status').children('option:checked').val();

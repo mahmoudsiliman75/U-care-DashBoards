@@ -4,8 +4,9 @@
   <form id="add-patient">
     <div class="grid grid-cols-12 gap-6">
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pl-5 pr-5 mt-2 -mx-5">
-        <select data-search="true" class="tail-select w-full">
+      <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pl-5 pr-5 mt-2 -mx-5">
+        <label class="text-gray-600 mb-3">Clinic Name</label>
+        <select data-search="true" class="tail-select w-full" disabled>
           <option value="">Select Clinic</option>
           <option value="1">Clinic 1</option>
           <option value="2">Clinic 2</option>
@@ -13,32 +14,41 @@
         </select> 
       </div>
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
-        <input type="text" class="datepicker input pl-12 border w-full" data-single-mode="true" placeholder="Reservation Date" name="reservation-date">
+      <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+        <label class="text-gray-600 mb-3">Reservation Date</label>
+        <input type="date" class="input pl-12 border w-full" data-single-mode="true" placeholder="Reservation Date" name="reservation-date" disabled>
       </div>
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pl-5 pr-5 -mx-5">
-        <input type="text" class="input w-full border mt-2" placeholder="Patient Name" name="patient-name"> 
+      <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
+        <label class="text-gray-600 mb-3">Reservation Time</label>
+        <input type="time" class="input w-full border mt-2" disabled> 
+      </div>
+
+      <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pl-5 pr-5 -mx-5">
+        <label class="text-gray-600 mb-3">Patient Name</label>
+        <input type="text" class="input w-full border mt-2" placeholder="Patient Name" name="patient-name" disabled> 
+      </div>
+
+      <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pl-5 pr-5 -mx-5">
+        <label class="text-gray-600 mb-3">Patient Age</label>
+        <input type="text" class="input w-full border mt-2" placeholder="Patient age" name="patient-age" disabled> 
+      </div>
+
+      <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-5 pl-5 -mx-5">
+        <label class="text-gray-600 mb-3">Patient Address</label>
+        <input type="text" class="input w-full border mt-2" placeholder="Patient Address" name="patient-address" disabled> 
       </div>
 
       <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
-        <input type="text" class="input w-full border mt-2" placeholder="Patient age" name="patient-age"> 
+        <input type="text" class="input w-full border mt-2" placeholder="Patient's Husbend" name="patient-husbend" disabled> 
       </div>
 
       <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
-        <input type="text" class="input w-full border mt-2" placeholder="Patient Address" name="patient-address"> 
+        <input type="text" class="input w-full border mt-2" placeholder="Phone Number" name="patient-phone" disabled> 
       </div>
 
       <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
-        <input type="text" class="input w-full border mt-2" placeholder="Patient's Husbend" name="patient-husbend"> 
-      </div>
-
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
-        <input type="text" class="input w-full border mt-2" placeholder="Phone Number" name="patient-phone"> 
-      </div>
-
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
-        <input type="text" class="input w-full border mt-2" placeholder="Another Phone Number" name="patient-Another-phone"> 
+        <input type="text" class="input w-full border mt-2" placeholder="Another Phone Number" name="patient-Another-phone" disabled> 
       </div>
 
       <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
@@ -69,32 +79,37 @@
         <input type="number" class="input w-full border mt-2" placeholder="C.S" name="CS"> 
       </div>
 
-      <div id="blanck-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+      <div class="flex flex-col col-span-12">
+        <div class="grid grid-cols-12 gap-6">
+
+          <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
+            <select id="Surgery-status" data-search="true" class="tail-select w-full">
+              <option value="">Previous Surgery</option>
+              <option value="0">No</option>
+              <option value="1">Yes</option>
+            </select> 
+          </div>
+
+          <div id="surgery-details-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-8 lg:flex-row p-5 -mx-5">
+            <input type="number" class="input w-full border mt-2" placeholder="Details" name="surgery-details"> 
+          </div>
+
+          <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
+            <select id="medicins-status" data-search="true" class="tail-select w-full">
+              <option value="">Medicins</option>
+              <option value="0">No</option>
+              <option value="1">Yes</option>
+            </select> 
+          </div>
+
+          <div id="medicins-details-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-8 lg:flex-row p-5 -mx-5">
+            <input type="number" class="input w-full border mt-2" placeholder="Details" name="medicins-details"> 
+          </div>
+
+        </div>
+
       </div>
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
-        <select id="Surgery-status" data-search="true" class="tail-select w-full">
-          <option value="">Previous Surgery</option>
-          <option value="0">No</option>
-          <option value="1">Yes</option>
-        </select> 
-      </div>
-
-      <div id="surgery-details-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-8 lg:flex-row p-5 -mx-5">
-        <input type="number" class="input w-full border mt-2" placeholder="Details" name="surgery-details"> 
-      </div>
-
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
-        <select id="medicins-status" data-search="true" class="tail-select w-full">
-          <option value="">Medicins</option>
-          <option value="0">No</option>
-          <option value="1">Yes</option>
-        </select> 
-      </div>
-
-      <div id="medicins-details-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-8 lg:flex-row p-5 -mx-5">
-        <input type="number" class="input w-full border mt-2" placeholder="Details" name="medicins-details"> 
-      </div>
 
       <div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-12 lg:flex-row p-5 -mx-5">
         <textarea class="editor w-full" name="editor"> 

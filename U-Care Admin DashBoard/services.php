@@ -4,11 +4,21 @@
   <form>
     <div class="grid grid-cols-12 gap-6">
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-6 lg:flex-row p-5 -mx-5">
+      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pl-5 pr-5 mt-2 -mx-5" style="margin-top: 1.7rem">
+        <select data-search="true" class="tail-select w-full">
+          <option value="">Select Clinic</option>
+          <option value="1">Clinic 1</option>
+          <option value="2">Clinic 2</option>
+          <option value="3">Clinic 3</option>
+        </select> 
+      </div>
+
+
+      <div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-4 lg:flex-row p-5 -mx-5">
         <input type="text" class="input w-full border mt-2" placeholder="Service"> 
       </div>
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-6 lg:flex-row p-5 -mx-5">
+      <div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-4 lg:flex-row p-5 -mx-5">
         <input type="text" class="input w-full border mt-2" placeholder="Service Cost"> 
       </div>
 
