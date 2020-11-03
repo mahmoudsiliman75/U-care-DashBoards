@@ -39,6 +39,7 @@
           <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">#</th> 
           <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">Service</th> 
           <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">Service Cost</th> 
+          <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">Actions</th>
         </tr> 
       </thead> 
 
@@ -47,12 +48,38 @@
           <td class="border-b dark:border-dark-5">1</td> 
           <td class="border-b dark:border-dark-5">Angelina</td> 
           <td class="border-b dark:border-dark-5"> 100 $ </td> 
+          <td class="border-b dark:border-dark-5 whitespace-no-wrap">
+            <button class="button px-2 mr-1 mb-2 bg-theme-9 text-white"> 
+              <a href="#" class="w-5 h-5 flex items-center justify-center"> 
+                <i data-feather="edit" class="w-4 h-4"></i> 
+              </a> 
+            </button>
+
+            <button class="button px-2 mr-1 mb-2 bg-theme-6 text-white"> 
+              <a href="#" class="w-5 h-5 flex items-center justify-center"> 
+                <i data-feather="trash" class="w-4 h-4"></i> 
+              </a> 
+            </button>
+          </td> 
         </tr>
 
         <tr> 
           <td class="border-b dark:border-dark-5">2</td> 
           <td class="border-b dark:border-dark-5">Brad</td> 
           <td class="border-b dark:border-dark-5">50 $</td> 
+          <td class="border-b dark:border-dark-5 whitespace-no-wrap">
+            <button class="button px-2 mr-1 mb-2 bg-theme-9 text-white"> 
+              <a href="#" class="w-5 h-5 flex items-center justify-center"> 
+                <i data-feather="edit" class="w-4 h-4"></i> 
+              </a> 
+            </button>
+
+            <button class="button px-2 mr-1 mb-2 bg-theme-6 text-white"> 
+              <a href="#" class="w-5 h-5 flex items-center justify-center"> 
+                <i data-feather="trash" class="w-4 h-4"></i> 
+              </a> 
+            </button>
+          </td> 
         </tr> 
 
       </tbody> 

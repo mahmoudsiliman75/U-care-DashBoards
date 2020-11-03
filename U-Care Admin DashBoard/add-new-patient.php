@@ -5,7 +5,7 @@
     <div class="grid grid-cols-12 gap-6">
 
       <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pl-5 pr-5 mt-2 -mx-5">
-        <label class="text-gray-600 mb-3">Clinic Name</label>
+        <label class="text-gray-600 mb-3 text-lg">Clinic Name</label>
         <select data-search="true" class="tail-select w-full" disabled>
           <option value="">Select Clinic</option>
           <option value="1">Clinic 1</option>
@@ -15,43 +15,47 @@
       </div>
 
       <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
-        <label class="text-gray-600 mb-3">Reservation Date</label>
-        <input type="date" class="input pl-12 border w-full" data-single-mode="true" placeholder="Reservation Date" name="reservation-date" disabled>
+        <label class="text-gray-600 mb-3 pb-3 text-lg">Reservation Date</label>
+        <input type="date" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder="Reservation Date" name="reservation-date" disabled>
       </div>
 
       <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
-        <label class="text-gray-600 mb-3">Reservation Time</label>
+        <label class="text-gray-600 mb-3 text-lg">Reservation Time</label>
         <input type="time" class="input w-full border mt-2" disabled> 
       </div>
 
       <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pl-5 pr-5 -mx-5">
-        <label class="text-gray-600 mb-3">Patient Name</label>
+        <label class="text-gray-600 mb-3 text-lg">Patient Name</label>
         <input type="text" class="input w-full border mt-2" placeholder="Patient Name" name="patient-name" disabled> 
       </div>
 
       <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pl-5 pr-5 -mx-5">
-        <label class="text-gray-600 mb-3">Patient Age</label>
+        <label class="text-gray-600 mb-3 text-lg">Patient Age</label>
         <input type="text" class="input w-full border mt-2" placeholder="Patient age" name="patient-age" disabled> 
       </div>
 
       <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-5 pl-5 -mx-5">
-        <label class="text-gray-600 mb-3">Patient Address</label>
+        <label class="text-gray-600 mb-3 text-lg">Patient Address</label>
         <input type="text" class="input w-full border mt-2" placeholder="Patient Address" name="patient-address" disabled> 
       </div>
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+      <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">Patient's Husbend Name</label>
         <input type="text" class="input w-full border mt-2" placeholder="Patient's Husbend" name="patient-husbend" disabled> 
       </div>
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+      <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">Phone Number</label>
         <input type="text" class="input w-full border mt-2" placeholder="Phone Number" name="patient-phone" disabled> 
       </div>
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+      <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">Another Phone Number</label>
         <input type="text" class="input w-full border mt-2" placeholder="Another Phone Number" name="patient-Another-phone" disabled> 
       </div>
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
+      <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">Pregnancy Status</label>
         <select id="pregnancy-status" data-search="true" class="tail-select w-full">
           <option value="">Pregnancy</option>
           <option value="0">There Was A Pregnancy Before</option>
@@ -59,30 +63,36 @@
         </select> 
       </div>
 
-      <div id="gravida-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+      <div id="gravida-container" class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">Gravida</label>
         <input type="number" class="input w-full border mt-2" placeholder="Gravida" name="gravida"> 
       </div>
 
-      <div id="para-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+      <div id="para-container" class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">Para</label>
         <input type="number" class="input w-full border mt-2" placeholder="Para" name="para"> 
       </div>
 
-      <div id="abortion-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+      <div id="abortion-container" class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">Abortion</label>
         <input type="number" class="input w-full border mt-2" placeholder="Abortion" name="abortion"> 
       </div>
 
-      <div id="vaginal-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+      <div id="vaginal-container" class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">Vaginal</label>
         <input type="number" class="input w-full border mt-2" placeholder="Vaginal" name="vaginal"> 
       </div>
 
-      <div id="cs-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+      <div id="cs-container" class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">C.S</label>
         <input type="number" class="input w-full border mt-2" placeholder="C.S" name="CS"> 
       </div>
 
       <div class="flex flex-col col-span-12">
         <div class="grid grid-cols-12 gap-6">
 
-          <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
+          <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
+            <label class="text-gray-600 mb-3 text-lg">Previous Surgeries</label>
             <select id="Surgery-status" data-search="true" class="tail-select w-full">
               <option value="">Previous Surgery</option>
               <option value="0">No</option>
@@ -90,11 +100,13 @@
             </select> 
           </div>
 
-          <div id="surgery-details-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-8 lg:flex-row p-5 -mx-5">
-            <input type="number" class="input w-full border mt-2" placeholder="Details" name="surgery-details"> 
+          <div id="surgery-details-container" class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-8 lg:flex-row p-5 -mx-5">
+            <label class="text-gray-600 mb-3 text-lg">Surgery Details</label>
+            <input type="text" class="input w-full border mt-2" placeholder="Details" name="surgery-details"> 
           </div>
 
-          <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
+          <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
+            <label class="text-gray-600 mb-3 text-lg">Medicins</label>
             <select id="medicins-status" data-search="true" class="tail-select w-full">
               <option value="">Medicins</option>
               <option value="0">No</option>
@@ -102,8 +114,9 @@
             </select> 
           </div>
 
-          <div id="medicins-details-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-8 lg:flex-row p-5 -mx-5">
-            <input type="number" class="input w-full border mt-2" placeholder="Details" name="medicins-details"> 
+          <div id="medicins-details-container" class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-8 lg:flex-row p-5 -mx-5">
+            <label class="text-gray-600 mb-3 text-lg">Medicins Details</label>
+            <input type="text" class="input w-full border mt-2" placeholder="Details" name="medicins-details"> 
           </div>
 
         </div>
@@ -111,7 +124,8 @@
       </div>
 
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-12 lg:flex-row p-5 -mx-5">
+      <div class="col-span-12 sm:col-span-12 lg:col-span-12 lg:flex-row p-5 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">More Details</label>
         <textarea class="editor w-full" name="editor"> 
         </textarea> 
       </div>
