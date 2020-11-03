@@ -31,6 +31,7 @@ $(document).ready(function () {
   // $('#abortion-container').css('display' , 'none');
   // $('#vaginal-container').css('display' , 'none');
   // $('#cs-container').css('display' , 'none');
+  // $('#blanck-container').css('display' , 'none');
 
   $('#pregnancy-status').on('change' , function(){
     let pregnancyOptionValue = $('#pregnancy-status').children('option:checked').val();
@@ -41,12 +42,14 @@ $(document).ready(function () {
       $('#abortion-container').css('display' , 'block');
       $('#vaginal-container').css('display' , 'block');
       $('#cs-container').css('display' , 'block');
+      $('#blanck-container').css('display' , 'block');
     } else if (pregnancyOptionValue == 1) {
       $('#gravida-container').css('display' , 'none');
       $('#para-container').css('display' , 'none');
       $('#abortion-container').css('display' , 'none');
       $('#vaginal-container').css('display' , 'none');
       $('#cs-container').css('display' , 'none');
+      $('#blanck-container').css('display' , 'none');
     }
 
   });

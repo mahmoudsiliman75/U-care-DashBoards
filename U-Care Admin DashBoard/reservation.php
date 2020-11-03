@@ -54,6 +54,11 @@
       </div>
 
     </div>
+
+    <button type="submit" class="button translate-y-3 mt-2 mr-2 flex items-center justify-center bg-theme-1 text-white col-span-4"> 
+      <i data-feather="save" class="w-4 h-4 mr-2  ml-2"></i> Save 
+    </button>
+
   </div>
 </form>
 

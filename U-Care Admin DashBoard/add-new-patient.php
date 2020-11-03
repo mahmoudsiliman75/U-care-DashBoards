@@ -69,6 +69,17 @@
         <input type="number" class="input w-full border mt-2" placeholder="C.S" name="CS"> 
       </div>
 
+      <div id="blanck-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+      </div>
+
+      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+        <select id="pregnancy-status" data-search="true" class="tail-select w-full">
+          <option value="">Previous Surgery</option>
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </select> 
+      </div>
+
     <div>
   </form>
 </div>
