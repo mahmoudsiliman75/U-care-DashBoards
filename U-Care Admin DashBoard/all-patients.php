@@ -5,9 +5,7 @@
   <!-- BEGIN: Table Data -->
   <div class="intro-y box pb-3" style="z-index:1">
     <div class="sm:flex-row items-center p-5 border-b border-gray-200 dark:border-dark-5">
-      <h2 class="font-lg text-lg text-base">
-        All Patients
-      </h2>
+    
       <form class="flex mr-auto grid grid-cols-12 gap-6" id="tabulator-html-filter-form">
 
         <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-3 lg:flex-row pl-5 pr-5 mt-2 -mx-5">
@@ -74,6 +72,13 @@
             </td> 
 
             <td class="border-b dark:border-dark-5 whitespace-no-wrap">
+
+              <button class="button px-2 mr-1 mb-2 bg-theme-12 text-white tooltip button inline-block bg-theme-1 text-white" title="Patient History" > 
+                <a href="patient-history.php" class="w-5 h-5 flex items-center justify-center"> 
+                  <i data-feather="hard-drive" class="w-4 h-4"></i> 
+                </a> 
+              </button>
+
               <button class="button px-2 mr-1 mb-2 bg-theme-9 text-white"> 
                 <a href="#" class="w-5 h-5 flex items-center justify-center"> 
                   <i data-feather="edit" class="w-4 h-4"></i> 
@@ -85,6 +90,7 @@
                   <i data-feather="trash" class="w-4 h-4"></i> 
                 </a> 
               </button>
+
             </td> 
 
           </tr>
@@ -105,6 +111,13 @@
             </td> 
 
             <td class="border-b dark:border-dark-5 whitespace-no-wrap">
+
+              <button class="button px-2 mr-1 mb-2 bg-theme-12 text-white tooltip button inline-block bg-theme-1 text-white" title="Patient History"> 
+                <a href="patient-history.php" class="w-5 h-5 flex items-center justify-center"> 
+                  <i data-feather="hard-drive" class="w-4 h-4"></i> 
+                </a> 
+              </button>
+
               <button class="button px-2 mr-1 mb-2 bg-theme-9 text-white"> 
                 <a href="#" class="w-5 h-5 flex items-center justify-center"> 
                   <i data-feather="edit" class="w-4 h-4"></i> 
@@ -116,6 +129,7 @@
                   <i data-feather="trash" class="w-4 h-4"></i> 
                 </a> 
               </button>
+
             </td> 
           </tr> 
 
