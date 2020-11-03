@@ -76,5 +76,10 @@ $(document).ready(function () {
           $("#medicins-details-container").css('visibility' , 'visible');
         } 
       });
+
+      // CLOSE NOTIFICATIONS
+      $("#close-notification").on('click' , function(){
+        $(".notification-container").css('display' , 'none')
+      });
 });
 
