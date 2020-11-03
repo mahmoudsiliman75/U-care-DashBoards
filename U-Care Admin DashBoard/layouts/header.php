@@ -22,7 +22,7 @@
 <body class="app">
 
 	<!-- BEGIN: Mobile Menu -->
-	<div class="mobile-menu md:hidden">
+	<!-- <div class="mobile-menu md:hidden">
 			<div class="mobile-menu-bar">
 					<a href="" class="flex mr-auto">
 							<img alt="Midone Tailwind HTML Admin Template" class="w-6" src="dist/images/logo.svg">
@@ -487,7 +487,7 @@
 							</ul>
 					</li>
 			</ul>
-	</div>
+	</div> -->
 	<!-- END: Mobile Menu -->
 
 	<div class="flex">
