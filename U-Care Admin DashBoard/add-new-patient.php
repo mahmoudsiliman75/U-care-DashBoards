@@ -1,10 +1,10 @@
 <?php include("layouts/header.php") ?>
 
 <div class="intro-y box px-5 pt-5 pb-5 mt-5">
-  <form>
+  <form id="add-patient">
     <div class="grid grid-cols-12 gap-6">
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pl-5 pr-5 mt-2 -mx-5">
         <select data-search="true" class="tail-select w-full">
           <option value="">Select Clinic</option>
           <option value="1">Clinic 1</option>
@@ -17,7 +17,7 @@
         <input type="text" class="datepicker input pl-12 border w-full" data-single-mode="true" placeholder="Reservation Date" name="reservation-date">
       </div>
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pl-5 pr-5 -mx-5">
         <input type="text" class="input w-full border mt-2" placeholder="Patient Name" name="patient-name"> 
       </div>
 
@@ -41,7 +41,7 @@
         <input type="text" class="input w-full border mt-2" placeholder="Another Phone Number" name="patient-Another-phone"> 
       </div>
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
         <select id="pregnancy-status" data-search="true" class="tail-select w-full">
           <option value="">Pregnancy</option>
           <option value="0">There Was A Pregnancy Before</option>
@@ -72,15 +72,39 @@
       <div id="blanck-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
       </div>
 
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
-        <select id="pregnancy-status" data-search="true" class="tail-select w-full">
+      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
+        <select id="Surgery-status" data-search="true" class="tail-select w-full">
           <option value="">Previous Surgery</option>
           <option value="0">No</option>
           <option value="1">Yes</option>
         </select> 
       </div>
 
+      <div id="surgery-details-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-8 lg:flex-row p-5 -mx-5">
+        <input type="number" class="input w-full border mt-2" placeholder="Details" name="surgery-details"> 
+      </div>
+
+      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 mt-2 -mx-5">
+        <select id="medicins-status" data-search="true" class="tail-select w-full">
+          <option value="">Medicins</option>
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </select> 
+      </div>
+
+      <div id="medicins-details-container" class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-8 lg:flex-row p-5 -mx-5">
+        <input type="number" class="input w-full border mt-2" placeholder="Details" name="medicins-details"> 
+      </div>
+
+      <div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-12 lg:flex-row p-5 -mx-5">
+        <textarea class="editor w-full" name="editor"> 
+        </textarea> 
+      </div>
+
     <div>
+    <button type="submit" class="button translate-y-3 mt-2 mr-2 flex items-center justify-center bg-theme-1 text-white col-span-4"> 
+      <i data-feather="save" class="w-4 h-4 mr-2  ml-2"></i> Save 
+    </button>
   </form>
 </div>
 

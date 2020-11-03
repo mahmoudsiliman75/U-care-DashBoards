@@ -26,16 +26,15 @@ $(document).ready(function () {
   }); 
 
   // SHOW AND HIDE PREGNANCY DETAILS FIELDS IN ADD NEW PATIENT PAGE
-  // $('#gravida-container').css('display' , 'none');
-  // $('#para-container').css('display' , 'none');
-  // $('#abortion-container').css('display' , 'none');
-  // $('#vaginal-container').css('display' , 'none');
-  // $('#cs-container').css('display' , 'none');
-  // $('#blanck-container').css('display' , 'none');
+  $('#gravida-container').css('display' , 'none');
+  $('#para-container').css('display' , 'none');
+  $('#abortion-container').css('display' , 'none');
+  $('#vaginal-container').css('display' , 'none');
+  $('#cs-container').css('display' , 'none');
+  $('#blanck-container').css('display' , 'none');
 
   $('#pregnancy-status').on('change' , function(){
     let pregnancyOptionValue = $('#pregnancy-status').children('option:checked').val();
-    // console.log(pregnancyOptionValue)
     if ( pregnancyOptionValue == 0 ) {
       $('#gravida-container').css('display' , 'block');
       $('#para-container').css('display' , 'block');
@@ -51,7 +50,31 @@ $(document).ready(function () {
       $('#cs-container').css('display' , 'none');
       $('#blanck-container').css('display' , 'none');
     }
-
   });
+
+      // SHOW AND HIDE SURGERY DETAILS FIELD IN ADD NEW PATIENT PAGE
+      $("#surgery-details-container").css('visibility' , 'hidden');
+
+      $("#Surgery-status").on('change' , function() {
+        let surgeryOptionValue = $('#Surgery-status').children('option:checked').val();
+        if ( surgeryOptionValue == 0 ) {
+          $("#surgery-details-container").css('visibility' , 'hidden');
+        } else if ( surgeryOptionValue == 1 ) {
+          $("#surgery-details-container").css('visibility' , 'visible');
+        }
+      });
+
+      // SHOW AND HIDE MIDICINS DETAILS FIELD IN ADD NEW PATIENT PAGE
+      $("#medicins-details-container").css('visibility' , 'hidden');
+
+      $("#medicins-status").on('change' , function () { 
+        let medicinOptionValue = $("#medicins-status").children('option:checked').val();
+        console.log(medicinOptionValue)
+        if ( medicinOptionValue == 0 ) {
+          $("#medicins-details-container").css('visibility' , 'hidden');
+        } else if ( medicinOptionValue == 1 ) {
+          $("#medicins-details-container").css('visibility' , 'visible');
+        } 
+      });
 });
 

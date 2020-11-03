@@ -17,23 +17,15 @@
       </div>
 
       <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
-        <input type="text" class="datepicker input pl-12 border w-full" data-single-mode="true" placeholder="Reservation Date">
+        <input type="date" class=" input pl-12 border w-full" data-single-mode="true" placeholder="Reservation Date">
+      </div>
+
+      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
+        <input type="time" class="input w-full border mt-2"> 
       </div>
 
       <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
         <input type="text" class="input w-full border mt-2" placeholder="Patient Age"> 
-      </div>
-
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
-        <select id="marital-status" data-search="true" class="tail-select w-full">
-          <option value="">Marital Status</option>
-          <option value="0">Married</option>
-          <option value="1">Not Married</option>
-        </select> 
-      </div>
-
-      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
-        <input id="reservation-husbend-name" type="text" class="input w-full border mt-2" placeholder="Patient Husband"> 
       </div>
 
       <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
@@ -46,6 +38,18 @@
 
       <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
         <input type="text" class="input w-full border mt-2" placeholder="Address"> 
+      </div>
+
+      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+        <select id="marital-status" data-search="true" class="tail-select w-full">
+          <option value="">Marital Status</option>
+          <option value="0">Married</option>
+          <option value="1">Not Married</option>
+        </select> 
+      </div>
+
+      <div class="flex flex-col col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
+        <input id="reservation-husbend-name" type="text" class="input w-full border mt-2" placeholder="Patient Husband"> 
       </div>
 
       <div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-12 lg:flex-row p-5 -mx-5">

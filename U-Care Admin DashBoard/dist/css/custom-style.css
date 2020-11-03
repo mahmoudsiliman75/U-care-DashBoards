@@ -24,3 +24,7 @@ body::-webkit-scrollbar-thumb {
 #reservation .ck.ck-editor {
   width: 100% !important;
 }
+
+#add-patient .ck.ck-editor {
+  width: 100% !important;
+}
