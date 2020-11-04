@@ -41,3 +41,11 @@ body::-webkit-scrollbar-thumb {
 #new-analyses .ck.ck-editor {
   width: 100% !important;
 }
+
+#new-pregnancy-follow .ck.ck-editor {
+  width: 100% !important;
+}
+
+#new-ovulation-follow .ck.ck-editor {
+  width: 100% !important;
+}

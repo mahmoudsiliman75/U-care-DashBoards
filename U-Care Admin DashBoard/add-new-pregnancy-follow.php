@@ -7,12 +7,12 @@
 
   <div class="clearFix"></div>
 
-    <form id="new-revealed">
+    <form id="new-pregnancy-follow">
       <div class="grid grid-cols-12 gap-6">
 
         <div class="col-span-12 lg:col-span-6 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
           <label class="text-gray-600 mb-3 pb-3 text-lg">Revealed Type</label>
-          <select id="marital-status" data-search="true" class="tail-select w-full">
+          <select data-search="true" class="tail-select w-full">
             <option value="0">New pregnancy</option>
             <option value="1">Follow-Up Pregnancy</option>
           </select> 
@@ -23,26 +23,26 @@
           <input type="date" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder="Reservation Date" name="revealed-date">
         </div>
 
-        <div class="col-span-12 lg:col-span-6 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+        <div class="col-span-12 md:col-span-6 lg:col-span-3 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
           <label class="text-gray-600 mb-3 pb-3 text-lg">G.A</label>
-          <select id="marital-status" data-search="true" class="tail-select w-full">
-            <option value="1">d 1</option>
-            <option value="2">d 2</option>
-            <option value="3">d 3</option>
-            <option value="4">d 4</option>
-            <option value="5">d 5</option>
-            <option value="6">d 6</option>
-            <option value="7">d 7</option>
-            <option value="8">d 8</option>
-            <option value="9">d 9</option>
-            <option value="10">d 10</option>
-            <option value="11">d 11</option>
-            <option value="12">d 12</option>
-            <option value="13">d 13</option>
-            <option value="14">d 14</option>
-            <option value="15">d 15</option>
-            <option value="16">d 16</option>
-            <option value="17">d 17</option>
+          <select data-search="true" class="tail-select w-full">
+            <option value="1">w 1</option>
+            <option value="2">w 2</option>
+            <option value="3">w 3</option>
+            <option value="4">w 4</option>
+            <option value="5">w 5</option>
+            <option value="6">w 6</option>
+            <option value="7">w 7</option>
+            <option value="8">w 8</option>
+            <option value="9">w 9</option>
+            <option value="10">w 10</option>
+            <option value="11">w 11</option>
+            <option value="12">w 12</option>
+            <option value="13">w 13</option>
+            <option value="14">w 14</option>
+            <option value="15">w 15</option>
+            <option value="16">w 16</option>
+            <option value="17">w 17</option>
             <option value="18">W 18</option>
             <option value="19">W 19</option>
             <option value="20">W 20</option>
@@ -69,9 +69,8 @@
           </select> 
         </div>
 
-        <div class="col-span-12 lg:col-span-6 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
-          <label class="text-gray-600 mb-3 pb-3 text-lg"></label>
-          <select id="marital-status" data-search="true" class="tail-select w-full">
+        <div class="col-span-12 md:col-span-6 lg:col-span-3 lg:flex-row pr-3 pl-3 mt-8 -mx-5">
+          <select data-search="true" class="tail-select w-full">
             <option value="1">d 1</option>
             <option value="2">d 2</option>
             <option value="3">d 3</option>
@@ -79,6 +78,34 @@
             <option value="5">d 5</option>
             <option value="6">d 6</option>
           </select> 
+        </div>
+
+        <div class="col-span-12 lg:col-span-6 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+          <label class="text-gray-600 mb-3 pb-3 text-lg">Details</label>
+          <input type="text" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder="Details" name="ga-details">
+        </div>
+
+        <div class="col-span-12 lg:col-span-2 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+          <label class="text-gray-600 mb-3 pb-3 text-lg">B.P</label>
+          <input type="text" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder="B.P" name="bp">
+        </div>
+
+        <div class="col-span-12 lg:col-span-2 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+          <label class="text-gray-600 mb-3 pb-3 text-lg">.WT</label>
+          <input type="text" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder=".WT" name="wt">
+        </div>
+
+        <div class="col-span-12 md:col-span-2 lg:col-span-2 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+          <label class="text-gray-600 mb-3 pb-3 text-lg">EDEMA</label>
+          <select id="edema-status" data-search="true" class="tail-select w-full">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+          </select> 
+        </div>
+
+        <div id="edema-details-container" class="col-span-12 lg:col-span-6 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+          <label class="text-gray-600 mb-3 pb-3 text-lg">Details</label>
+          <input type="text" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder="Details" name="edema-details">
         </div>
 
 

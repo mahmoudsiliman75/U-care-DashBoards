@@ -89,6 +89,18 @@ $(document).ready(function () {
         } 
       });
 
+      // SHOW AND HIDE EDEMA DETAILS FIELD IN PREGNANCY FOLLOW PAGE
+      $("#edema-details-container").css("display" , "none");
+
+      $("#edema-status").on('change' , function() {
+        let edemaOptionValue = $("#edema-status").children("option:checked").val();
+        if ( edemaOptionValue == 0 ) {
+          $("#edema-details-container").css("display" , "none")
+        } else if ( edemaOptionValue == 1 ) {
+          $("#edema-details-container").css("display" , "block")
+        }
+      });
+
       // CLOSE NOTIFICATIONS
       $("#close-notification").on('click' , function(){
         $(".notification-container").css('display' , 'none')

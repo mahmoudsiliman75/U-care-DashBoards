@@ -7,7 +7,7 @@
 
   <div class="clearFix"></div>
 
-    <form id="new-revealed">
+    <form id="new-ovulation-follow">
       <div class="grid grid-cols-12 gap-6">
 
         <div class="col-span-12 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">

@@ -25,13 +25,13 @@
             <option value="1">All Conditions</option>
             <option value="2"> Revealed </option>
             <option value="3"> Follow-Up Of Ovulation </option>
-            <option value="3"> Follow-Up Of Pregnancy </option>
+            <option value="4"> Follow-Up Of Pregnancy </option>
           </select> 
         </div>
 
         <div class="sm:flex-row items-center col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 mt-2">
           <label class="text-gray-600 mb-3 text-lg">Sarch For</label>
-          <input type="text" class="input w-full border" id="tabulator-html-filter-value" placeholder="Search">
+          <input type="text" class="input w-full border" placeholder="Search">
         </div>
 
         <div class="sm:flex-row items-center col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-2">

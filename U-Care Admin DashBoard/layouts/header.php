@@ -602,6 +602,16 @@
 				</a>
 			</li>
 
+			<div class="side-nav__devider my-6"></div>
+
+			<li>
+				<a href="policies-and-terms.php" class="side-menu">
+					<div class="side-menu__icon"> <i class="ml-3" data-feather="shield"></i> </div>
+					<div class="side-menu__title"> Policies And Terms </div>
+				</a>
+			</li>
+
+			<div class="side-nav__devider my-6"></div>
 
 			<li>
 					<a href="side-menu-light-post.html" class="side-menu">
