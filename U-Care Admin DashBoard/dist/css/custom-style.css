@@ -33,3 +33,7 @@ body::-webkit-scrollbar-thumb {
 #add-patient .ck.ck-editor {
   width: 100% !important;
 }
+
+#new-revealed .ck.ck-editor {
+  width: 100% !important;
+}
