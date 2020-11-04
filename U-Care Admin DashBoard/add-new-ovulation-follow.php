@@ -10,14 +10,19 @@
     <form id="new-revealed">
       <div class="grid grid-cols-12 gap-6">
 
-        <div class="col-span-12 lg:col-span-6 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+        <div class="col-span-12 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
           <label class="text-gray-600 mb-3 pb-3 text-lg">Revealed Date</label>
           <input type="date" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder="Reservation Date" name="revealed-date">
         </div>
 
-        <div class="col-span-12 lg:col-span-6 lg:flex-row pr-5 pl-5 -mx-5">
-          <label class="text-gray-600 mb-3 text-lg">The Cause Of Visite</label>
-          <input type="text" class="input w-full border mt-2" placeholder="The Cause Of Visite" name="the-cause-of-visite"> 
+        <div class="col-span-12 lg:col-span-4 lg:flex-row pr-5 pl-5 -mx-5">
+          <label class="text-gray-600 mb-3 text-lg">Ovul Size</label>
+          <input type="text" class="input w-full border mt-2" placeholder="Ovul Size" name="ovul-size"> 
+        </div>
+
+        <div class="col-span-12 lg:col-span-4 lg:flex-row pr-5 pl-5 -mx-5">
+          <label class="text-gray-600 mb-3 text-lg">Ovules Number</label>
+          <input type="text" class="input w-full border mt-2" placeholder="Ovules Number" name="ovul-number"> 
         </div>
 
         <div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-12 lg:flex-row p-5 -mx-5">

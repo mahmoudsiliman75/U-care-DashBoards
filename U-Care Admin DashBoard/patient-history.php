@@ -8,8 +8,8 @@
     <div class="dropdown-box mt-10 absolute w-60 top-0 left-0 z-20 ">
       <div class="dropdown-box__content box dark:bg-dark-1 p-2"> 
         <a href="new-revealed.php" class="block p-2 transition duration-300 ease-in-out bg-white dark:bg-dark-1 hover:bg-gray-200 dark:hover:bg-dark-2 rounded-md">Normal Revealed</a> 
-        <a href="" class="block p-2 transition duration-300 ease-in-out bg-white dark:bg-dark-1 hover:bg-gray-200 dark:hover:bg-dark-2 rounded-md">Follow-Up Of Pregnancy</a>
-        <a href="" class="block p-2 transition duration-300 ease-in-out bg-white dark:bg-dark-1 hover:bg-gray-200 dark:hover:bg-dark-2 rounded-md">Follow-Up Of Ovulation</a> 
+        <a href="add-new-pregnancy-follow.php" class="block p-2 transition duration-300 ease-in-out bg-white dark:bg-dark-1 hover:bg-gray-200 dark:hover:bg-dark-2 rounded-md">Follow-Up Of Pregnancy</a>
+        <a href="add-new-ovulation-follow.php" class="block p-2 transition duration-300 ease-in-out bg-white dark:bg-dark-1 hover:bg-gray-200 dark:hover:bg-dark-2 rounded-md">Follow-Up Of Ovulation</a> 
       </div>
     </div>
   </div>

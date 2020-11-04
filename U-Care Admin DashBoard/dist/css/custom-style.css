@@ -37,3 +37,7 @@ body::-webkit-scrollbar-thumb {
 #new-revealed .ck.ck-editor {
   width: 100% !important;
 }
+
+#new-analyses .ck.ck-editor {
+  width: 100% !important;
+}
