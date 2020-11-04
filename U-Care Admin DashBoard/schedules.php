@@ -6,17 +6,26 @@
 
   <form class="grid grid-cols-12 gap-6">
 
-  <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+    <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-3 lg:flex-row pr-5 pl-5 mt-2 -mx-5">
+      <label class="text-gray-600 mb-3 text-lg"> Doctor Name </label>
+      <select id="pregnancy-status" data-search="true" class="tail-select w-full">
+        <option value="">Select Doctor Name</option>
+        <option value="0">Doctor 1</option>
+        <option value="1">Doctor 2</option>
+      </select> 
+    </div>
+
+    <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-3 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
       <label class="text-gray-600 mb-3 pb-3 text-lg">Schedule Type</label>
       <input type="text" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder="Schedule Type" name="schedule-type">
     </div>
 
-    <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+    <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-3 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
       <label class="text-gray-600 mb-3 pb-3 text-lg">Schedule Date</label>
       <input type="date" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder="Reservation Date" name="reservation-date">
     </div>
 
-    <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
+    <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-3 lg:flex-row pr-3 pl-3 -mx-5">
       <label class="text-gray-600 mb-3 text-lg">Schedule Time</label>
       <input type="time" class="input w-full border mt-2"> 
     </div>
