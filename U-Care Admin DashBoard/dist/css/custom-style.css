@@ -2,6 +2,11 @@
   font-family: 'Cairo', sans-serif;;
 }
 
+.clearFix {
+  clear: both;
+  margin-top: 20px;
+}
+
 /* START CUSTOMIZE SCROLLBAR STYLE */
 body::-webkit-scrollbar {
   width: 6px;
