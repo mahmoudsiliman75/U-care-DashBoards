@@ -97,6 +97,26 @@
         <input type="number" class="input w-full border mt-2" placeholder="C.S" name="CS"> 
       </div>
 
+      <div id="last-birth-date-container" class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-6 -mx-5">
+        <label class="text-gray-600 mb-3 pb-3 text-lg">Last Birth Date</label>
+        <input type="date" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder="Reservation Date" name="reservation-date">
+      </div>
+
+      <div id="male-children-container" class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">Male Children</label>
+        <input type="number" class="input w-full border mt-2" placeholder="Male Children" name="male-children"> 
+      </div>
+
+      <div id="female-children-container" class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">Female Children</label>
+        <input type="number" class="input w-full border mt-2" placeholder="Female Children" name="female-children"> 
+      </div>
+
+      <div id="last-birth-details-container" class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-8 lg:flex-row p-5 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">Last Birth Details</label>
+        <input type="text" class="input w-full border mt-2" placeholder="Details" name="last-birth-details"> 
+      </div>
+
       <div class="flex flex-col col-span-12">
         <div class="grid grid-cols-12 gap-6">
 
