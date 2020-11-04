@@ -595,6 +595,13 @@
 				</ul>
 			</li>
 
+			<li>
+				<a href="schedules.php" class="side-menu">
+					<div class="side-menu__icon"> <i class="ml-3" data-feather="file-text"></i> </div>
+					<div class="side-menu__title"> Schedules </div>
+				</a>
+			</li>
+
 
 			<li>
 					<a href="side-menu-light-post.html" class="side-menu">

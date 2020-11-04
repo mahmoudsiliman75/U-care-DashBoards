@@ -39,6 +39,15 @@
         <input type="text" class="input w-full border mt-2" placeholder="Patient Address" name="patient-address" disabled> 
       </div>
 
+      <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-6 -mx-5">
+        <label class="text-gray-600 mb-3 text-lg">Marital Status</label>
+        <select id="marital-status" data-search="true" class="tail-select w-full" disabled>
+          <option value="">Marital Status</option>
+          <option value="0">Married</option>
+          <option value="1">Not Married</option>
+        </select> 
+      </div>
+
       <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row p-5 -mx-5">
         <label class="text-gray-600 mb-3 text-lg">Patient's Husbend Name</label>
         <input type="text" class="input w-full border mt-2" placeholder="Patient's Husbend" name="patient-husbend" disabled> 
