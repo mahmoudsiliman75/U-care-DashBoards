@@ -22,77 +22,77 @@
       <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Name : </span>  Patient Name  </p>
     </div>
 
-    <div div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+    <div div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
       <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Marital Status : </span>  Married  </p>
     </div>
 
-    <div div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+    <div div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3  -mx-5">
       <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Husband Name : </span>  Patient' Husband Name  </p>
     </div>
 
-    <div div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+    <div div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
       <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black">  Age : </span> 30  </p>
     </div>
 
-    <div div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+    <div div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
       <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Address : </span>  Patient Address  </p>
     </div>
 
-    <div div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+    <div div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
       <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Phone Number : </span>  01000000001 </p>
     </div>
 
-    <div div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+    <div div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 lg:flex-row pr-3 pl-3 -mx-5">
       <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Pregnanc Before : </span>  Yes </p>
     </div>
 
-    <div div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+    <div div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 lg:flex-row pr-3 pl-3 -mx-5">
       <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Gravida  : </span>  3 </p>
     </div>
 
-    <div div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+    <div div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 lg:flex-row pr-3 pl-3 -mx-5">
       <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Para  : </span>  2 </p>
     </div>
 
-    <div div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+    <div div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 lg:flex-row pr-3 pl-3 -mx-5">
       <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Abortion  : </span>  1 </p>
     </div>
     
-    <div div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+    <div div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 lg:flex-row pr-3 pl-3 -mx-5">
       <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Vaginal  : </span>  1 </p>
     </div>
 
-    <div div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+    <div div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 lg:flex-row pr-3 pl-3 -mx-5">
       <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> C.S : </span>  2 </p>
     </div>
 
     <div class="col-span-12 grid grid-cols-12 gap-6">
 
-      <div class="col-span-12 sm:col-span-12 md:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+      <div class="col-span-12 sm:col-span-12 md:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
         <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Last Birth Date : </span>  15-7-2019 </p>
       </div>
 
-      <div class="col-span-12 sm:col-span-12 md:col-span-8 lg:col-span-8 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+      <div class="col-span-12 sm:col-span-12 md:col-span-8 lg:col-span-8 lg:flex-row pr-3 pl-3 -mx-5">
         <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Last Birth Details : </span>  Last Birth Details Will Be Display Here </p>
       </div>
 
-      <div class="col-span-12 sm:col-span-12 md:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+      <div class="col-span-12 sm:col-span-12 md:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
         <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Previous Surgeries : </span>  Yes </p>
       </div>
 
-      <div class="col-span-12 sm:col-span-12 md:col-span-8 lg:col-span-8 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+      <div class="col-span-12 sm:col-span-12 md:col-span-8 lg:col-span-8 lg:flex-row pr-3 pl-3 -mx-5">
         <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Previous Surgeries Details : </span>  Previous Surgeries Details Will Be Display Here </p>
       </div>
 
-      <div class="col-span-12 sm:col-span-12 md:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+      <div class="col-span-12 sm:col-span-12 md:col-span-4 lg:col-span-4 lg:flex-row pr-3 pl-3 -mx-5">
         <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Medicins : </span>  Yes </p>
       </div>
 
-      <div class="col-span-12 sm:col-span-12 md:col-span-8 lg:col-span-8 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+      <div class="col-span-12 sm:col-span-12 md:col-span-8 lg:col-span-8 lg:flex-row pr-3 pl-3 -mx-5">
         <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> Medicins Details : </span>  Medicins Details Will Be Display Here </p>
       </div>
 
-      <div class="col-span-12 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+      <div class="col-span-12 lg:flex-row pr-3 pl-3 -mx-5">
         <p class="text-gray-600 mb-3 pb-3 text-lg"> <span class="text-blue-600 font-black"> General Notes : </span>  Patient's General Notes Will Be Display Here </p>
       </div>
 
