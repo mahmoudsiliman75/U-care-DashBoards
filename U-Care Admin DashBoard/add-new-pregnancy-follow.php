@@ -11,16 +11,27 @@
       <div class="grid grid-cols-12 gap-6">
 
         <div class="col-span-12 lg:col-span-6 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+          <label class="text-gray-600 mb-3 pb-3 text-lg">Revealed Date</label>
+          <input type="date" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder="Reservation Date" name="revealed-date">
+        </div>
+
+        <div class="col-span-12 lg:col-span-6 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
           <label class="text-gray-600 mb-3 pb-3 text-lg">Revealed Type</label>
-          <select data-search="true" class="tail-select w-full">
+          <select id="pregnancy-follow-data" data-search="true" class="tail-select w-full">
+            <option value="">Select Pregnancy Data</option>
             <option value="0">New pregnancy</option>
             <option value="1">Follow-Up Pregnancy</option>
           </select> 
         </div>
 
-        <div class="col-span-12 lg:col-span-6 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
-          <label class="text-gray-600 mb-3 pb-3 text-lg">Revealed Date</label>
-          <input type="date" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder="Reservation Date" name="revealed-date">
+        <div id="lmp-date-container" class="col-span-12 lg:col-span-6 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+          <label class="text-gray-600 mb-3 pb-3 text-lg">L.MP</label>
+          <input type="date" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder="L.MP" name="l.mp-date">
+        </div>
+
+        <div id="edd-date-container" class="col-span-12 lg:col-span-6 lg:flex-row pr-3 pl-3 mt-2 -mx-5">
+          <label class="text-gray-600 mb-3 pb-3 text-lg">EDD</label>
+          <input type="date" class="input pl-12 border w-full pt-2" data-single-mode="true" placeholder="EDD" name="edd-date">
         </div>
 
         <div class="col-span-12 md:col-span-6 lg:col-span-3 lg:flex-row pr-3 pl-3 mt-2 -mx-5">

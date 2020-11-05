@@ -101,6 +101,21 @@ $(document).ready(function () {
         }
       });
 
+
+      $("#lmp-date-container").css("display" , "none");
+      $("#edd-date-container").css("display" , "none");
+
+      $("#pregnancy-follow-data").on('change' , function() {
+        let edemaOptionValue = $("#pregnancy-follow-data").children("option:checked").val();
+        if ( edemaOptionValue == 1 ) {
+          $("#lmp-date-container").css("display" , "none");
+          $("#edd-date-container").css("display" , "none");
+        } else if ( edemaOptionValue == 0 ) {
+          $("#lmp-date-container").css("display" , "block");
+          $("#edd-date-container").css("display" , "block");
+        }
+      });
+
       // CLOSE NOTIFICATIONS
       $("#close-notification").on('click' , function(){
         $(".notification-container").css('display' , 'none')
