@@ -265,6 +265,97 @@
 </div>
 <!-- END FOLLOW-UP OVULATION TABLE  -->
 
+<!-- START FOLLOW-UP PREGNANCY TABLE  -->
+<div class="col-span-12 xxl:col-span-3 xxl:border-l border-theme-5 mb-5">
+
+  <div class="intro-y box pb-3" style="z-index:1">
+    <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200 dark:border-dark-5">
+      <h2 class="text-gray-600 mb-4 text-lg col-span-6"> Follow-up Pregnancy Table </h2>
+      <form class="flex mr-auto" id="tabulator-html-filter-form">
+
+        <div class="flex flex-col sm:flex-row items-center mr-4">
+          <input type="text" class="input w-full border" id="tabulator-html-filter-value" placeholder="Search">
+        </div>
+        <div class="">
+          <button type="button" class="button text-center w-11 bg-theme-1 text-white mr-2 ml-2" id="tabulator-html-filter-go">
+            <i data-feather="search" class="w-5 h-5 text-center"></i> 
+          </button>
+        </div>
+
+      </form>
+    </div>
+
+    <div class="overflow-x-auto p-5"> 
+      <table class="table"> 
+        <thead> 
+          <tr class="bg-gray-200 dark:bg-dark-1"> 
+            <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">#</th> 
+            <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">Revealed Date</th>
+            <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">G.A</th> 
+            <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">B.P</th>
+            <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">.WT</th> 
+            <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">EDEMA</th>
+            <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">Details</th>
+            <th class="border-b-2 dark:border-dark-5 whitespace-no-wrap">Actions</th> 
+          </tr> 
+        </thead> 
+
+        <tbody> 
+          <tr> 
+            <td class="border-b dark:border-dark-5">1</td> 
+            <td class="border-b dark:border-dark-5">18-10-2019</td>
+            <td class="border-b dark:border-dark-5">Data</td> 
+            <td class="border-b dark:border-dark-5">Data</td>
+            <td class="border-b dark:border-dark-5">Data</td> 
+            <td class="border-b dark:border-dark-5">Data</td>
+            <td class="border-b dark:border-dark-5"> Revealed Notes Will Be Display Here </td> 
+            <td class="border-b dark:border-dark-5 whitespace-no-wrap">
+              <button class="button px-2 mr-1 mb-2 bg-theme-9 text-white"> 
+                <a href="#" class="w-5 h-5 flex items-center justify-center tooltip" title="Edit"> 
+                  <i data-feather="edit" class="w-4 h-4"></i> 
+                </a> 
+              </button>
+
+              <button class="button px-2 mr-1 mb-2 bg-theme-6 text-white"> 
+                <a href="#" class="w-5 h-5 flex items-center justify-center tooltip" title="Delete"> 
+                  <i data-feather="trash" class="w-4 h-4"></i> 
+                </a> 
+              </button>
+            </td> 
+          </tr>
+
+          <tr> 
+            <td class="border-b dark:border-dark-5">2</td> 
+            <td class="border-b dark:border-dark-5">18-10-2020</td> 
+            <td class="border-b dark:border-dark-5">Data</td>
+            <td class="border-b dark:border-dark-5">Data</td>
+            <td class="border-b dark:border-dark-5">Data</td>
+            <td class="border-b dark:border-dark-5">Data</td>
+            <td class="border-b dark:border-dark-5">Revealed Notes Will Be Display Here</td> 
+            <td class="border-b dark:border-dark-5 whitespace-no-wrap">
+              <button class="button px-2 mr-1 mb-2 bg-theme-9 text-white"> 
+                <a href="#" class="w-5 h-5 flex items-center justify-center tooltip" title="Edit"> 
+                  <i data-feather="edit" class="w-4 h-4"></i> 
+                </a> 
+              </button>
+
+              <button class="button px-2 mr-1 mb-2 bg-theme-6 text-white"> 
+                <a href="#" class="w-5 h-5 flex items-center justify-center tooltip" title="Delete"> 
+                  <i data-feather="trash" class="w-4 h-4"></i> 
+                </a> 
+              </button>
+            </td> 
+          </tr> 
+
+        </tbody> 
+      </table> 
+    </div> 
+
+  </div>
+
+</div>
+<!-- END FOLLOW-UP PREGNANCY TABLE  -->
+
 <!-- START MEDICAL ANALYSIS TABLE  -->
 <div class="col-span-12 xxl:col-span-3 xxl:border-l border-theme-5 mb-5">
 
