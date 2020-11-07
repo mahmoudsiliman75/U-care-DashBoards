@@ -40,7 +40,7 @@
 
         <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 lg:flex-row pl-5 pr-5 -mx-5">
           <label class="text-gray-600 mb-3 text-lg">Total</label>
-          <input type="text" class="input w-full border mt-2" Value="22 $" name="patient-age" disabled> 
+          <input type="text" class="input w-full border mt-2" Value="32 $" name="patient-age" disabled> 
         </div>
 
           <div class="text-center col-span-6 mt-8 text-right"> 
@@ -172,7 +172,7 @@
 <div class="intro-y box px-5 pt-5 pb-5 mt-5 flex justify-center">
     <div class="px-5 -mx-5 text-center">
       <label class="text-gray-600 mb-3 text-lg">Total Day Financial</label>
-      <input type="text" class="input w-full border mt-2 text-center" Value="40 $" name="patient-age" disabled> 
+      <input type="text" class="input w-full border mt-2 text-center" Value="72 $" name="patient-age" disabled> 
     </div>
 </div>
 
