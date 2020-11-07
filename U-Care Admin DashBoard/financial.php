@@ -92,15 +92,15 @@
                     <tr> 
                       <td class="border-b dark:border-dark-5">1</td> 
                       <td class="border-b dark:border-dark-5"> Expense </td> 
-                      <td class="border-b dark:border-dark-5"> Re-revealed </td>
-                      <th class="border-b dark:border-dark-5"> 3 $ </th>
+                      <td class="border-b dark:border-dark-5">  3 $  </td>
+                      <th class="border-b dark:border-dark-5"> The Details Will Display Here </th>
                     </tr>
 
                     <tr> 
                       <td class="border-b dark:border-dark-5">2</td> 
                       <td class="border-b dark:border-dark-5">Import</td> 
-                      <td class="border-b dark:border-dark-5"> Revealed </td>
-                      <th class="border-b dark:border-dark-5"> 5 $ </th>
+                      <td class="border-b dark:border-dark-5">  5 $ </td>
+                      <th class="border-b dark:border-dark-5"> The Details Will Display Here </th>
                     </tr> 
 
                   </tbody> 
