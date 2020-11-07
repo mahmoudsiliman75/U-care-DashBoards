@@ -38,22 +38,12 @@
 				</div>
 
 				<div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-6 lg:flex-row p-5 -mx-5">
-					<select data-search="true" class="tail-select w-full">
-						<option value="1">Select City</option>
-						<option value="2">Cairo</option>
-						<option value="3">Dakahlya</option>
-						<option value="4">Cairo</option>
-					</select> 
+					<input type="text" class="input w-full border mt-2" placeholder="Address"> 
 				</div>
 
 				<div class="flex flex-col col-span-12 sm:col-span-12 lg:col-span-6 lg:flex-row p-5 -mx-5">
-					<select data-search="true" class="tail-select w-full">
-						<option value="1">Select Area</option>
-						<option value="2">Doky</option>
-						<option value="3">6 Oct</option>
-					</select> 
+					<input type="email" class="input w-full border mt-2" placeholder="Email"> 
 				</div>
-
 
 			</div>
 
