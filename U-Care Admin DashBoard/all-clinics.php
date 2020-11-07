@@ -5,9 +5,7 @@
 <!-- BEGIN: Table Data -->
 <div class="intro-y box pb-3" style="z-index:1">
   <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200 dark:border-dark-5">
-    <h2 class="font-medium text-base">
-      Clinics
-    </h2>
+    <h2 class="font-xl text-xl text-base text-gray-600"> Clinics </h2>
     <form class="flex mr-auto" id="tabulator-html-filter-form">
 
       <div class="flex flex-col sm:flex-row items-center mr-4">

@@ -537,11 +537,29 @@
 			</li>
 
 			<li>
-				<a href="add-user.php" class="side-menu">
-					<div class="side-menu__icon"> <i class="ml-3" data-feather="user-plus"></i> </div>
-					<div class="side-menu__title"> Add Employee </div>
+				<a href="javascript:;" class="side-menu">
+					<div class="side-menu__icon"> <i class="ml-3" data-feather="users"></i> </div>
+					<div class="side-menu__title"> Employees <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
 				</a>
+				<ul class="">
+
+					<li>
+						<a href="add-user.php" class="side-menu">
+							<div class="side-menu__icon"> <i class="ml-3" data-feather="user-plus"></i> </div>
+							<div class="side-menu__title"> Add Employee </div>
+						</a>
+					</li>
+
+					<li>
+						<a href="all-employees.php" class="side-menu">
+							<div class="side-menu__icon"> <i class="ml-3" data-feather="users"></i> </div>
+							<div class="side-menu__title"> All Employees </div>
+						</a>
+					</li>
+
+				</ul>
 			</li>
+
 
 			<li>
 				<a href="all-clinics.php" class="side-menu">
