@@ -602,6 +602,13 @@
 				</a>
 			</li>
 
+			<li>
+				<a href="financial.php" class="side-menu">
+					<div class="side-menu__icon"> <i class="ml-3" data-feather="dollar-sign"></i> </div>
+					<div class="side-menu__title"> Financilas </div>
+				</a>
+			</li>
+
 			<div class="side-nav__devider my-6"></div>
 
 			<li>
@@ -611,7 +618,7 @@
 				</a>
 			</li>
 
-			<div class="side-nav__devider my-6"></div>
+			<!-- <div class="side-nav__devider my-6"></div>
 
 			<li>
 					<a href="side-menu-light-post.html" class="side-menu">
@@ -645,7 +652,7 @@
 									</a>
 							</li>
 					</ul>
-			</li>
+			</li> -->
 
 		</ul>
 	</nav>

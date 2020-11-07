@@ -16,7 +16,19 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: #F1F1F1;
 }
-/* START CUSTOMIZE SCROLLBAR STYLE */
+/* END CUSTOMIZE SCROLLBAR STYLE */
+
+/* START CUSTOMIZE MODAL SCROLLBAR STYLE */
+.modal.show::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+.modal.show::-webkit-scrollbar-thumb {
+  background-color: #F1F1F1;
+}
+/* END CUSTOMIZE MODAL SCROLLBAR STYLE */
+
 
 #profile .ck.ck-editor {
   width: 100% !important;
