@@ -1,7 +1,7 @@
 <?php include("layouts/header.php") ?>
 
 <div class="intro-y box px-5 pt-5 pb-5 mt-5 flex justify-center">
-  <div class="grid-cols-12 gap-6 flex justify-center">
+  <div class="sm:grid grid-cols-12 gap-6 md:flex justify-center">
 
     <div class="px-5 -mx-5 text-center col-span-6 md:col-span-2">
       <label class="text-gray-600 mb-3 text-lg">Total Expense	</label>
