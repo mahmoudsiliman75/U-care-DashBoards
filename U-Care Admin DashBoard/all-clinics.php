@@ -34,9 +34,16 @@
       <tbody> 
         <tr> 
           <td class="border-b dark:border-dark-5">1</td> 
-          <td class="border-b dark:border-dark-5">Angelina</td> 
-          <td class="border-b dark:border-dark-5"> Jolie </td> 
+          <td class="border-b dark:border-dark-5">Clinic 1</td> 
+          <td class="border-b dark:border-dark-5"> 30 </td> 
           <td class="border-b dark:border-dark-5 whitespace-no-wrap">
+
+            <button class="button px-2 mr-1 mb-2 bg-theme-12 text-white tooltip" title="Clinic Patients"> 
+              <a href="clinic-all-paients.php" class="w-5 h-5 flex items-center justify-center"> 
+                <i data-feather="users" class="w-4 h-4"></i> 
+              </a> 
+            </button>
+            
             <button class="button px-2 mr-1 mb-2 bg-theme-9 text-white"> 
               <a href="#" class="w-5 h-5 flex items-center justify-center tooltip" title="Edit"> 
                 <i data-feather="edit" class="w-4 h-4"></i> 
@@ -53,9 +60,16 @@
 
         <tr> 
           <td class="border-b dark:border-dark-5">2</td> 
-          <td class="border-b dark:border-dark-5">Brad</td> 
-          <td class="border-b dark:border-dark-5">Pitt</td> 
+          <td class="border-b dark:border-dark-5">Clinic 2</td> 
+          <td class="border-b dark:border-dark-5">52</td> 
           <td class="border-b dark:border-dark-5 whitespace-no-wrap">
+
+            <button class="button px-2 mr-1 mb-2 bg-theme-12 text-white tooltip" title="Clinic Patients"> 
+              <a href="clinic-all-paients.php" class="w-5 h-5 flex items-center justify-center"> 
+                <i data-feather="users" class="w-4 h-4"></i> 
+              </a> 
+            </button>
+
             <button class="button px-2 mr-1 mb-2 bg-theme-9 text-white"> 
               <a href="#" class="w-5 h-5 flex items-center justify-center tooltip" title="Edit"> 
                 <i data-feather="edit" class="w-4 h-4"></i> 

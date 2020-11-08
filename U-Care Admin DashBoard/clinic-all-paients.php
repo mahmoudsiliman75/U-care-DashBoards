@@ -5,29 +5,10 @@
   <!-- BEGIN: Table Data -->
   <div class="intro-y box pb-3" style="z-index:1">
     <div class="sm:flex-row items-center p-5 border-b border-gray-200 dark:border-dark-5">
+
+      <h2 class="font-xl text-xl text-base text-gray-600 mb-4"> Clinic 1 </h2>
     
       <form class="flex mr-auto grid grid-cols-12 gap-6" id="tabulator-html-filter-form">
-
-        <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-3 lg:flex-row pl-5 pr-5 mt-2 -mx-5">
-          <label class="text-gray-600 mb-3 text-lg">Clinic Name</label>
-          <select data-search="true" class="tail-select w-full">
-            <option value="">Select Clinic</option>
-            <option value="1">All Clinics</option>
-            <option value="2">Clinic 1</option>
-            <option value="3">Clinic 2</option>
-          </select> 
-        </div>
-
-        <div class="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-3 lg:flex-row pl-5 pr-5 mt-2 -mx-5">
-          <label class="text-gray-600 mb-3 text-lg">Medical Condition</label>
-          <select data-search="true" class="tail-select w-full">
-            <option value="">Select Condition</option>
-            <option value="1">All Conditions</option>
-            <option value="2"> Revealed </option>
-            <option value="3"> Follow-Up Of Ovulation </option>
-            <option value="4"> Follow-Up Of Pregnancy </option>
-          </select> 
-        </div>
 
         <div class="sm:flex-row items-center col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 mt-2">
           <label class="text-gray-600 mb-3 text-lg">Sarch For</label>
