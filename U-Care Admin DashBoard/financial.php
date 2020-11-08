@@ -1,5 +1,36 @@
 <?php include("layouts/header.php") ?>
 
+<div class="intro-y box px-5 pt-5 pb-5 mt-5 flex justify-center">
+  <div class="grid-cols-12 gap-6 flex justify-center">
+    <div class="px-5 -mx-5 text-center col-span-6 md:col-span-2">
+      <label class="text-gray-600 mb-3 text-lg">Pre-reservations</label>
+      <input type="text" class="input w-full border mt-2 text-center" Value="40 $" name="patient-age" disabled> 
+    </div>
+
+    <div class="px-5 -mx-5 text-center col-span-6 md:col-span-2">
+      <label class="text-gray-600 mb-3 text-lg">Total Day Financial</label>
+      <input type="text" class="input w-full border mt-2 text-center" Value="72 $" name="patient-age" disabled> 
+    </div>
+
+    <div class="px-5 -mx-5 text-center col-span-6 md:col-span-2">
+      <label class="text-gray-600 mb-3 text-lg">Total Day Financial</label>
+      <input type="text" class="input w-full border mt-2 text-center" Value="72 $" name="patient-age" disabled> 
+    </div>
+
+    <div class="px-5 -mx-5 text-center col-span-6 md:col-span-2">
+      <label class="text-gray-600 mb-3 text-lg">Total Day Financial</label>
+      <input type="text" class="input w-full border mt-2 text-center" Value="72 $" name="patient-age" disabled> 
+    </div>
+
+
+    <div class="px-5 -mx-5 text-center col-span-12 md:col-span-2">
+      <label class="text-gray-600 mb-3 text-lg">Total Day Financial</label>
+      <input type="text" class="input w-full border mt-2 text-center" Value="72 $" name="patient-age" disabled> 
+    </div>
+
+  </div>
+</div>
+
 <div class="intro-y box px-5 pt-5 pb-5 mt-5">
   <div class="grid grid-cols-12 gap-6">
     <h2 class="text-gray-600 mb-2 text-xl col-span-6"> Today's Financials </h2>
@@ -164,16 +195,7 @@
       </div>
     </div>
 
-
-
   </div>
-</div>
-
-<div class="intro-y box px-5 pt-5 pb-5 mt-5 flex justify-center">
-    <div class="px-5 -mx-5 text-center">
-      <label class="text-gray-600 mb-3 text-lg">Total Day Financial</label>
-      <input type="text" class="input w-full border mt-2 text-center" Value="72 $" name="patient-age" disabled> 
-    </div>
 </div>
 
 <?php include("layouts/footer.php") ?>
