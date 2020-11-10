@@ -148,6 +148,19 @@
             <input type="text" class="input w-full border mt-2" placeholder="Details" name="medicins-details"> 
           </div>
 
+          <div class="col-span-12 lg:flex-row pl-5 pr-5 mt-2 -mx-5">
+            <label class="text-gray-600 mb-3 text-lg">Add Services</label>
+            <select data-placeholder="Select your favorite actors" data-search="true" class="tail-select w-full" multiple>
+              <option value="1" selected> Service 1 </option>
+              <option value="2">Service 2</option>
+              <option value="3" selected>Service 3</option>
+              <option value="4">Service 4</option>
+              <option value="5">Service 5</option>
+              <option value="6">Service 6</option>
+              <option value="7" selected>Service 7</option>
+            </select>
+          </div>
+
         </div>
 
       </div>

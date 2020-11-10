@@ -37,7 +37,7 @@
 
 .side-nav>ul>li>.side-menu.side-menu--active .side-menu__icon:before {
   right: auto;
-  left: 0;
+  left: -15px;
 }
 /* END CUSTOMIZE SIDE MENU DIRECTION */
 
